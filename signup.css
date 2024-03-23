@@ -1,65 +1,77 @@
-* {
-    background-image: url(/img1.jpeg);
-  }
-  body {
-      margin: 0;
-      padding: 0;
-      font-family: Arial, sans-serif;
-      background-image: url('background-image.jpg');
-      background-size: cover;
-      background-position: center;
-      height: 50vh;
-    }
-    
-    .container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 75vh;
-    }
-    
-    .signup-form {
-      background-color: rgba(255, 255, 255, 0.8);
-      padding: 20px;
-      border-radius: 10px;
-      width: 300px;
-    }
-    
-    .signup-form h2 {
-      text-align: center;
-    }
-    
-    .form-group {
-      margin-bottom: 15px;
-    }
-    
-    .form-group label {
-      display: block;
-      margin-bottom: 5px;
-    }
-    
-    .form-group input {
-      width: 100%;
-      padding: 8px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }
-    
-    button {
-      width: 100%;
-      padding: 10px;
-      background-color: #007bff;
-      color: #1fad66;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-    
-    button:hover {
-      background-color: #0056b3;
-    }
-    h1,h2{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('background-image.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+}
+
+.signup-form {
+  background-color: #151536;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.signup-form h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fcfcfc;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+h1,h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+.container {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: rgba(232, 228, 10, 0.862);
+  width: 100%;
+  padding: 20px;
+}
